@@ -1,6 +1,6 @@
-import project1 from '../assets/projects/project-1.jpg';
-import project2 from '../assets/projects/project-2.jpg';
-import project3 from '../assets/projects/project-3.jpg';
+// import project1 from '../assets/projects/project-1.jpg';
+// import project2 from '../assets/projects/project-2.jpg';
+// import project3 from '../assets/projects/project-3.jpg';
 import education1 from '../assets/ucf.jpg';
 import education2 from '../assets/fsu.jpg';
 
@@ -39,21 +39,21 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: 'E-Commerce Website',
-    image: project1,
+    // image: project1,
     description:
       'A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.',
     technologies: ['HTML', 'CSS', 'React', 'Node.js', 'MongoDB'],
   },
   {
     title: 'Task Management App',
-    image: project2,
+    // image: project2,
     description:
       'An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.',
     technologies: ['HTML', 'CSS', 'Angular', 'Firebase'],
   },
   {
     title: 'Portfolio Website',
-    image: project3,
+    // image: project3,
     description:
       'A personal portfolio website showcasing projects, skills, and contact information.',
     technologies: ['HTML', 'CSS', 'React', 'Bootstrap'],
