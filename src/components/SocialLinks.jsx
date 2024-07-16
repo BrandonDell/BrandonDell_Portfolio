@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
 const SocialLinks = () => {
   return (
-    <div className="flex justify-center space-x-4 mt-8">
+    <div className="flex flex-wrap justify-center space-x-6 mt-6 ">
       <a
         href="https://www.linkedin.com/in/brandondellcioppia"
         target="_blank"
