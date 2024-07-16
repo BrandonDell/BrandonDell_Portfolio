@@ -9,6 +9,13 @@ export const HERO_CONTENT = `Aspiring Junior Developer with a focus on backend w
 export const ABOUT_TEXT = `I'm a recent graduate from the UCF Full-Stack Coding Bootcamp. I have a passion for technology and coding, and I'm excited to embark on a career in this dynamic field. When I'm not coding, I love spending quality time with family and friends. My hobbies include golfing and riding my Harley, which allow me to unwind and enjoy the great outdoors. I'm always driving myself to take on new challenges, both professionally and personally. `;
 
 export const EXPERIENCES = [
+  // {
+  //   year: "2024 - Present",
+  //   role: "Software Engineer",
+  //   company: "Future Company XYZ",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
   {
     year: '2019 - 2023',
     role: 'General Manager',
