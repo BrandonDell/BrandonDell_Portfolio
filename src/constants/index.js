@@ -1,4 +1,4 @@
-// import project1 from '../assets/projects/project-1.jpg';
+import project1 from '../assets/projects/gardening.jpg';
 // import project2 from '../assets/projects/project-2.jpg';
 // import project3 from '../assets/projects/project-3.jpg';
 import education1 from '../assets/ucf.jpg';
@@ -50,10 +50,10 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: 'E-Commerce Website',
-    // image: project1,
+    title: 'Root2Roast',
+    image: project1,
     description:
-      'A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.',
+      'A social platform that brings together the passion for gardening and cooking with search engines that allow you to explore new recipes with ingredients from your own garden.',
     technologies: ['HTML', 'CSS', 'React', 'Node.js', 'MongoDB'],
   },
   {
