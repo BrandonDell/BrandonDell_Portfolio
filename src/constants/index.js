@@ -1,6 +1,7 @@
-import project1 from '../assets/projects/gardening.jpg';
-// import project2 from '../assets/projects/project-2.jpg';
-// import project3 from '../assets/projects/project-3.jpg';
+import project1 from '../assets/projects/root2Roast.png';
+import project2 from '../assets/projects/socialMediaApi.png';
+import project3 from '../assets/projects/noteTaker.png';
+import familyPic from '../assets/familyPic.jpg'
 import education1 from '../assets/ucf.jpg';
 import education2 from '../assets/fsu.jpg';
 
@@ -50,6 +51,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: 'Portfolio Website',
+    image: familyPic,
+    description:
+      'A personal portfolio website showcasing projects, skills, and contact information.',
+    technologies: ['HTML', 'CSS', 'React', 'Tailwinds'],
+  },
+  {
     title: 'Root2Roast',
     image: project1,
     description:
@@ -57,18 +65,18 @@ export const PROJECTS = [
     technologies: ['HTML', 'CSS', 'React', 'Node.js', 'MongoDB'],
   },
   {
-    title: 'Task Management App',
-    // image: project2,
+    title: 'Social Connnect API',
+    image: project2,
     description:
-      'An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.',
-    technologies: ['HTML', 'CSS', 'Angular', 'Firebase'],
+      'A backend database used to create, read, update, and delete users',
+    technologies: ['MongoDB', 'Mongoose', 'Express', 'Node'],
   },
   {
-    title: 'Portfolio Website',
-    // image: project3,
+    title: 'Note Taker',
+    image: project3,
     description:
-      'A personal portfolio website showcasing projects, skills, and contact information.',
-    technologies: ['HTML', 'CSS', 'React', 'Bootstrap'],
+      'This task list maker will allow users to create new tasks or notes that will be saved and listed until completed/deleted. ',
+    technologies: ['HTML', 'CSS', 'React', 'Tailwinds'],
   },
 ];
 
