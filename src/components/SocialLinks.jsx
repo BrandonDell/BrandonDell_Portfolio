@@ -20,14 +20,14 @@ const SocialLinks = () => {
       >
         <FaGithub size={30} />
       </a>
-      <a
+      {/* <a
         href="https://www.instagram.com/bdellcioppia"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-400 hover:text-gray-800"
       >
         <FaInstagram size={30} />
-      </a>
+      </a> */}
     </div>
   );
 };

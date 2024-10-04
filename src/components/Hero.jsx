@@ -8,8 +8,8 @@ const Hero = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
-           <h1 className='pb-10 text-6xl font-thin tracking-tight lg:mt-10 lg:text-6xl'>Brandon Dell Cioppia</h1>
-            <span className="bg-gradient-to-r from-blue-300 via-slate-500 to bg-blue-500 bg-clip-text text-4xl tracking-tight text-transparent"
+           <h1 className='pb-10 text-6xl font-thin tracking-tight lg:mt-10 lg:text-6x'>Brandon Dell Cioppia</h1>
+            <span className="text-blue-400 text-4xl tracking-tight"
             >Full Stack Developer
             </span>
             <p className="my-2 max-w-xl py-2 font-light tracking-tighter lg:text-2xl">

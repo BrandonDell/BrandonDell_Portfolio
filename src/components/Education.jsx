@@ -3,7 +3,7 @@ import { EDUCATION } from '../constants';
 const Education = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h2 className="my-20 text-center text-4xl">Education</h2>
+      <h2 className="my-20 text-center text-4xl">Education & Certificate</h2>
       <div>
         {EDUCATION.map((school, index) => (
             <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>

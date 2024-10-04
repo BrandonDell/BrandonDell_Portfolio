@@ -1,11 +1,11 @@
 import project1 from '../assets/projects/root2Roast.png';
 import project2 from '../assets/projects/socialMediaApi.png';
 import project3 from '../assets/projects/noteTaker.png';
-import familyPic from '../assets/familyPic.jpg'
+import project4 from '../assets/projects/h&RSupply.png';
 import education1 from '../assets/ucf.jpg';
 import education2 from '../assets/fsu.jpg';
 
-export const HERO_CONTENT = `Aspiring Junior Developer with a focus on backend web development with PHP and the Laravel framework. Recently graduated from UCF’s full-stack web development program, with hands-on experience in building dynamic web applications and RESTful APIs. Proficient in database management using MySQL, excelling in writing efficient queries and optimizing database performance. Skilled in front-end technologies such as HTML, CSS, and JavaScript, with a proven ability to create responsive and user-friendly interfaces. Experience with GitHub for version control and collaborative development. Committed to deliver high-quality code, eager to learn new technologies, and a team player.`;
+export const HERO_CONTENT = `Junior full stack web developer, with hands-on experience in building dynamic web applications and RESTful APIs. Proficient in database management using MySQL, excelling in writing efficient queries and optimizing database performance. Skilled in front-end technologies such as HTML, CSS, and JavaScript, with a proven ability to create responsive and user-friendly interfaces. Experience with GitHub for version control and collaborative development. Committed to deliver high-quality code, eager to learn new technologies, and a team player.`;
 
 export const ABOUT_TEXT = `I'm a recent graduate from the UCF Full-Stack Coding Bootcamp. I have a passion for technology and coding, and I'm excited to embark on a career in this dynamic field. When I'm not coding, I love spending quality time with family and friends. My hobbies include golfing and riding my Harley, which allow me to unwind and enjoy the great outdoors. I'm always driving myself to take on new challenges, both professionally and personally. `;
 
@@ -51,11 +51,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: 'Portfolio Website',
-    image: familyPic,
+    title: 'Hotel & Restaurant Supply',
+    image: project4,
     description:
-      'A personal portfolio website showcasing projects, skills, and contact information.',
-    technologies: ['HTML', 'CSS', 'React', 'Tailwinds'],
+      'E-Commerce platform built with MERN Stack and a full featured shopping cart with Paypal',
+    technologies: ['MongoDB', 'Express', 'React', 'Node'],
   },
   {
     title: 'Root2Roast',
