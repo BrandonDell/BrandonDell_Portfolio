@@ -56,6 +56,7 @@ export const PROJECTS = [
     description:
       'E-Commerce platform built with MERN Stack and a full featured shopping cart with Paypal',
     technologies: ['MongoDB', 'Express', 'React', 'Node'],
+    link: 'https://hotel-and-restaurant-supply.onrender.com'
   },
   {
     title: 'Root2Roast',
@@ -63,6 +64,7 @@ export const PROJECTS = [
     description:
       'A social platform that brings together the passion for gardening and cooking with search engines that allow you to explore new recipes with ingredients from your own garden.',
     technologies: ['HTML', 'CSS', 'React', 'Node.js', 'MongoDB'],
+    link: 'https://root2roast.onrender.com'
   },
   {
     title: 'Social Connnect API',
